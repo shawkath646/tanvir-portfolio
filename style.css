@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url("images/LMC_20220912_132023.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-social-icons a {
+    color: rgb(150, 147, 147);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.header-social-icons a:hover {
+    color: #fff;
+}
+
+.header-social-icons a i {
+    font-size: 28px;
+    margin: 0 10px;
+}
+
+.bg-black {
+    background: #000;
+}
+.information {
+    margin-top: 50px;
+}
+.information img {
+    height: 480px;
+}
+.margin-top-50px {
+    margin-top: 50px;
+}
+.padding-bottom-150px {
+    padding-bottom: 150px;
+}
+.my-gallery-pic img {
+    width: 300px;
+    height: 250px;
+    object-position: top;
+    object-fit: cover;
+    border: 2px solid #ffbb00;
+    padding: 5px;
+    margin: 5px 0;
+}
+.family-gallery-pic img {
+    height: 500px;
+    object-position: top;
+    object-fit: cover;
+}
+.footer-copy {
+    color: rgb(204, 198, 198);
+    margin-bottom: 0;
+}
