@@ -51,10 +51,7 @@ header {
     padding-bottom: 150px;
 }
 .my-gallery-pic img {
-    width: 300px;
-    height: 250px;
-    object-position: top;
-    object-fit: cover;
+    /* width: 300px; */
     border: 2px solid #ffbb00;
     padding: 5px;
     margin: 5px 0;
@@ -67,4 +64,13 @@ header {
 .footer-copy {
     color: rgb(204, 198, 198);
     margin-bottom: 0;
+}
+.who-gallery {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.who-gallery img {
+    height: 500px;
+    object-fit: contain;
+    object-position: center;
 }
